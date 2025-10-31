@@ -1,0 +1,2255 @@
+.navbar{
+  
+  position: fixed;
+  width: 100%;
+  height:84px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 8px 0px;
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+
+.logo{
+  Width:93.06px;
+  Height:50px;
+  Top:7px;
+  Left:99px;
+  margin-top: 12px;
+}
+
+.navbar-list{
+  list-style-type: none;
+  
+  width: 465px;
+  height: 24px;
+  gap: 32px;
+  display: inline-flex;
+  justify-content: center;
+  top: 45px;
+  padding-top: 10px;
+}
+
+.anchor-element{
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 20px;
+
+
+}
+
+.navbar-button{
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(0, 142, 200, 1);
+  color: white;
+  border: none;
+  cursor: pointer; 
+  margin-top: 22px;
+}
+
+
+/* BANNER SECTION */
+
+
+.banner-bg-container{
+  background-image: url("capsole.jpg");
+  height: 452px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.banner-card{
+  background-color: black;
+  width: 100%;
+   height: 452px;
+  background-size: cover;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  
+
+}
+
+.banner-heading{
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  color: white;
+  width: 750px;
+  margin-left: 130px;
+}
+
+.banner-para{
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+  margin-left: 130px;
+
+
+
+
+}
+.button{
+  margin-left: 130px;
+}
+
+.banner-button{
+  width:197px;
+  height:52px;
+  border-radius: 8px;
+  background-color:rgba(0, 102, 204, 1);
+  color: white;
+
+
+}
+
+.capsul-image{
+  width: 388px;
+  height: 388px;
+  margin-right: 130px;
+}
+
+/* GLOBAL- IMPACT-SECTION*/
+
+.global-bg-section{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(0, 142, 198, 0.15) 100%);
+}
+.global-heading{
+  font-family: 'Roboto'; 
+  font-size: 36px;
+  font-weight: bold;
+  
+
+  text-align: center;
+
+}
+.global-para{
+  
+  height: 56px;
+
+  font-family: inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  text-align: center;
+
+
+
+}
+
+.global-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;               
+  padding: 20px; 
+  margin-left: 130px;
+  margin-right: 130px;          
+}
+
+.global-card{
+  width: 560px;
+  height: 280px;
+
+  opacity: 1;
+  top: 176px;
+  left: 276.8px;
+  border-radius: 16px;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+
+
+
+}
+.icon-card{
+  width: 94px;
+  height: 94px;
+  border-radius: 9999px;
+  background-color:#23BC8D;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin: 26px auto;
+}
+
+.icon{
+  color: white;
+  width: 54px;
+  height: 54px;
+}
+.global-card-heading{
+  font-family: Inter;
+  font-weight: 700;
+
+  font-size: 36px;
+  color: #008EC8;
+}
+
+.global-card-para{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*About Karshipla Healthcare */
+
+
+.about-bg{
+  background-color:#F9FAFB;
+  width: 100%;
+  height: 579px;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+
+}
+
+.about-heading{
+  
+  height: 36px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 30px;
+  
+
+}
+
+.about-para{
+  font-family: Poppins;
+  font-weight: 450;
+  font-style: Regular;
+  font-size: 18px;
+  color:#374151;
+  margin-bottom: 12px;
+ 
+}
+
+.ul-about {
+  list-style: none;  
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color:#374151;
+  margin-bottom: 42px;
+
+}
+.li-about{
+  margin-bottom: 12px;
+}
+
+
+.about-button{
+
+  width: 168px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #0066CC;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px
+
+}
+
+.Karshipla-staff{
+  width: 590px;
+  height: 500px;
+
+}
+.tick-mark{
+    color:#0066CC;
+    width: 12px;
+    height: 8px;
+    padding-right: 18px;
+
+}
+
+
+
+
+/* Our-Journey */
+
+.Our-Journey-bg{
+  position: relative;
+  background-color: white;
+  width: 100%;
+ 
+}
+.Our-Journey-heading{
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+}
+.journey-container{
+  position: relative;
+  display: flex; 
+  justify-content: center; 
+  gap:45px; 
+}
+.journey-track{
+  position: absolute;
+  border-color: green;
+  border-width: 3px;
+  position: absolute;
+  left: 425px;
+  width: 1460px;
+  border-style:  dashed;
+  z-index: 0;
+}
+.year{
+width: 64px;
+height: 64px;
+border-radius: 9999px;
+background-color: #0066CC;
+color: white;
+padding: 10px;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 26px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 125px;
+margin-bottom: 44px;
+z-index: 1;
+}
+.Journey-card{
+  width: 256px;
+  height: 151px;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 4px 0px 4px 4px #0000001a;
+  background-color: white;
+  margin-left: 24px;
+}
+.Journey-card-heading{
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  width: 96px;
+  height: 28px;
+
+}
+.Journey-card-para{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  width: 208px;
+  height: 72px;
+  color:  #374151;
+
+}
+
+/*Our-Global-Market-section*/
+
+
+
+
+.Our-Global-Market-section{
+  position: relative;
+  background-color: #F9FAFB;
+  width: 100%;
+ 
+
+
+}
+
+.OGM{
+  display: flex;
+  justify-content: center;
+}
+
+
+.global-market-heading{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 66px;
+
+}
+.map-image{
+  width: 1232px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-contianer{
+  display: flex;
+  justify-content: center;
+}
+
+.location-name-card{
+  background-color: #FFFFFF;
+  width: 389px;
+  height: 156px;
+
+  border-radius: 16px;
+
+  gap: 16px;
+  margin: 54px;
+  padding: 24px;
+
+}
+.location{
+  display: flex;
+}
+.location-image{
+  width: 20px;
+  height: 20px;
+  padding-top: 18px;
+  padding-left: 18px;
+}
+.location-heading{
+  width: 100%px;
+  height: 28px;
+  top: 2px;
+  left: 40px;
+  
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  padding-left: 24px;
+}
+
+.country-button{
+  background-color: #B2E9FF;
+
+  width: 108px;
+  height: 28px;
+  top: 36px;
+  left: 176.3px;
+
+  opacity: 1;
+  border-radius: 9999px;
+
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  color: Green;
+  border-width: 0px;
+  margin: 6px;
+
+
+}
+
+
+/*Our-Business-Model-container*/
+
+.OBM-bg{
+  background-color: #FFFFFF;
+  width: 100%;
+  margin-bottom: 100px;
+
+}
+.OBM-Main-heading{
+font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+text-align: center;
+padding: 24px;
+}
+.OBM-cards-container{
+
+  
+  display: flex;
+  justify-content:center;
+  gap: 12px;
+}
+.OBM-card{
+  width: 450px;
+  height: 350px;
+  border-radius: 16px;
+  border-width: 1px;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F4F6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 45px;
+
+}
+
+.OBM-ICON{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 24px;
+ 
+  
+
+
+  
+}
+
+.OBM-icon-image{
+  background-color: #EFF6FF;
+  border-radius: 9999px;
+  padding: 24px;
+  width: 34px; 
+  height: 32px;
+
+}
+
+.OBM-card-heading{
+  font-family: Poppins;
+ font-weight: 600;
+ font-size: 20px;
+ text-align: center;
+
+
+}
+
+.OBM-card-para{
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;  
+  height: 96px;
+  padding: 24px;
+}
+
+/* Manufacturing-Excellence-bg */ 
+
+.Manufacturing-Excellence-bg{
+  background-image: url("Manufacture_exce.png");
+  background-size: cover;
+  height: 516px;
+  width: 100%;
+}
+.ME{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.ME-heading{
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-top: 74px;
+}
+
+.ME-para{
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.ME-cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 34px;
+
+}
+
+
+
+.ME-cards{
+  width: 384px;
+  height: 200px;
+  border-radius: 16px;
+  border-width: 1px;
+  border: 1px solid #FFFFFF4D;
+  box-shadow: 0px 8px 32px 0px #0070D11A;
+  backdrop-filter: blur(12px);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.ME-card-heading{
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+
+}
+.ME-card-para{
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+}
+
+
+/*Services-for-Importers-bg*/
+
+.Services-for-Importers-bg{
+  background-color: white;
+  width: 100%;
+
+}
+.SFI-main-heading{
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  margin: 45px;
+
+}
+
+.SFI-cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 42px;
+  margin-bottom: 34px;
+}
+
+.SFI-card{
+  width: 490px;
+height: 326px;
+border-radius: 16px;
+border-width: 1px;
+border-width: 2px;
+border-style: solid;
+border-color:#F3F4F6;
+box-shadow: 0px 0px 4px 0px rgb(122, 118, 118);
+
+}
+
+.SFI-icon{
+  width: 22px;
+  height: 22px;
+  background-color: #EFF6FF;
+  padding: 22px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 34px;
+}
+
+.SFI-card-heading{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #111827;
+
+}
+
+.SFI-card-para{
+ margin-left: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #374151;
+
+
+}
+
+
+/*PARTNERS*/
+
+.partners-bg-section{
+  width: 100%;
+  background: linear-gradient(90deg, #0066CC 0%, #4D94FF 100%);
+  
+}
+
+.partner-heading{
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  color:#FFFFFF;
+  padding-top: 74px;
+}
+.partner-para{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.partner-buttons{
+  text-align: center;
+}
+.button-1{
+  text-align: center;
+  width: 164px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #0066CC;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 24px;
+  
+
+
+}
+.button-2{
+  text-align: center;
+  width: 164px;
+  height: 52px;
+  background-color: transparent;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+
+  border-color: white;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+
+
+}
+
+.partner-bottom-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 24px;
+
+}
+
+.partner-icon-container{
+  display: flex;
+  background-color:#5a8cf6;
+  
+
+  border-radius: 84px;
+  margin: 24px; 
+  padding-right: 24px;
+  padding-left: 24px;
+  
+}
+
+.partner-icon{
+  width: 36px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 12px;
+  margin: 12px;
+
+}
+.partner-icon-para{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 23px;
+  color: white;
+
+}
+
+/*BOTTOM-SECTION*/
+
+.bottom-section{
+  width: 100%;
+  
+  background-color: #111827;
+  padding-top: 56px;
+  
+}
+
+.ALL-SECTION{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 54px;
+  
+}
+.main-section{
+  margin-right: -0px;
+
+}
+
+
+.B-Karshipla{
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 38px;
+  color: white;
+
+
+}
+.B-para{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color:#9CA3AF;
+;
+
+
+}
+.social-median-section{
+  display: flex;
+  gap: 10px;
+}
+
+.social-median-icon{
+  background-color: #1F2937;
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+
+}
+  
+
+.SM-icon{
+ width: 40px;
+ height: 40px;
+ margin: auto;
+ text-align: center;
+}
+
+
+.quick-link-section{
+  margin-left: -345px;
+}
+
+.Quick-link-heading{
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 38px;
+  color: white;
+
+}
+.Quick-link-para{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color:#9CA3AF;
+
+}
+
+.Contact-info-heading{
+  font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 38px;
+color: white;
+
+}
+.address{
+  display: flex;
+}
+.address-icon{
+  width: 26px;
+ height: 26px;
+ margin-left: 22px;
+ margin-top: 22px;
+
+}
+.address-para{
+  font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+color: #9CA3AF;
+padding-top: 12px;
+padding-left: 20px;
+margin: 0px;
+
+
+}
+.botton-line{
+  border-color: #535456;
+  width: 1560px;
+  border-width: 1px;
+
+}
+
+.bottom-copy-right{
+  color: #9CA3AF;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+.bottom-para{
+    margin-top: 32px;
+}
+.bottom-listitems{
+  list-style-type: none;
+  display: inline-block;
+  margin: 12px;
+}
+
+
+/*ABOUTUS-PAGE*/
+
+.About-us-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 8px 0px #02CB8A;
+    display: flex;
+    justify-content: space-around;
+    padding: 22PX;
+}
+
+
+/* About Karshipla Healthcare LLP */
+
+.About-Karshipla-Healthcare-bg{
+    background-image: url("spoon-capsole.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.about-section{
+    margin-left: 180px;
+    margin-bottom: 12px;
+    
+}
+.About-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    color: white;
+}
+.span-element{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    color: green;
+
+}
+.aboutt-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    color:  #374151;
+    font-family: Poppins;
+
+
+}
+.about-para-1{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: white;
+}
+.about-button{
+    width: 210px;
+    height: 50px;
+    top: 359px;
+    left: 100px;
+    border-radius: 8px;
+    background-color: #008EC8;
+    color: white;
+    border-width: 0px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.about-button-1{
+    width: 210px;
+    height: 50px;
+    top: 359px;
+    left: 100px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+
+/*   <!--about-icons-->*/
+
+.about-icons-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+   
+    background-color: #F3F4F6;
+
+
+
+}
+.icon-container{
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+    background-color:#23BC8D;
+    padding: 4px;
+    margin-left: 45px;
+}
+.about-icon{
+    width: 46px;
+    height: 46px;
+    margin: 8px;
+}
+.about-icon-paragraph{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+}
+
+
+/* OUR-COMPANY-OVERVIEW*/
+
+.Our-Company-Overview-bg{
+    width: 100%;
+    background-color: white;
+    padding-top: 54px;
+}
+.OCO-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    color: #1F2937;
+    margin-bottom: 34px;
+}
+.OCO-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    width: 714px;
+    height: 98px;
+    color: #374151;
+
+}
+.OCO-para-2{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    width: 714px;
+    height: 98px;
+    color: #374151;
+}
+
+.OCO-icon-flex-container{
+    display: flex;
+    gap: 22px;
+}
+.OCO-icon-bg{
+    display: flex;
+}
+
+.OCO-icon-container{
+    width: 48px;
+    height: 48px;
+    background-color: #DBEAFE;
+    padding: 10px;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+}
+.OCO-icon{
+    width: 32px;
+    height: 32px;
+    margin: 6px;
+}
+
+.OCO-icon-heading-container{
+    margin-left: 22px;
+
+}
+.OCO-icon-heading{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+}
+.OCO-icon-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+}
+.OCO-button{
+    width: 228px;
+    height: 48px;
+    background-color: #23BC8D;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+.OCO-image{
+    width: 500px;
+    height: 662px;
+    border-radius: 16px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF4D;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+}
+
+
+/*Why Global Partners Trust Us*/
+
+.Why-Global-Partners-bg{
+    background-color: #F9FAFB;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.Why-Global-Partners-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 54px;
+
+}
+
+.Why-Global-Partner-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    margin: 24px;
+}
+.Why-Global-Partner-card{
+    width: 389PX;
+    height: 348PX;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0PX 1PX 2PX 2PX rgb(207, 196, 196);
+    text-align: center;
+    padding: 24PX;
+}
+.Why-Global-Partner-image{
+    width: 126px;
+    height: 126px;
+    border-radius: 16px;
+   padding-top: 34px;
+
+}
+.Why-Global-Partner-card-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+
+}
+.Why-Global-Partner-card-para{
+   
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    width: 400;
+    text-align: center;
+
+}
+
+
+/*Our Product Categories*/
+
+.Our-Product-Categories-bg{
+    
+background-color: white;
+width: 100%;
+
+}
+.OPC-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 54px;
+}
+.OPC-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    text-align: center;
+    width: 669px;
+    color:#4B5563;
+}
+.Our-Product-Categories-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+.OPC-card{
+    width: 330px;
+    height: 480px;
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E3E4E6;
+    box-shadow: 3px 3px 3px 3px #6560600d;
+
+}
+.OPC-image{
+    width: 329px;
+    height: 249px;
+}
+.OPC-card-heading{
+
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    margin-left: 18px;
+}
+.OPC-card-para{
+    width: 300px;
+    height: 95px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color:#4B5563;
+    margin-left: 18px;
+
+}
+.product-link{
+    color: #008EC8;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.OPC-Right-Arrow{
+    width: 16px;
+    height: 16PX;
+    margin: 12px;
+    color: #008EC8;
+}
+
+.OPC-button-container{
+    text-align: center;
+
+}
+.OPC-button{
+    width: 214px;
+    height: 49px;
+    border-radius: 8px;
+    border-width: 1px;
+    background-color: white;
+    border: 1px solid #008EC8;
+    color: #008EC8;
+    margin: 24px;
+    font-size: 16 px;
+}
+
+
+
+/*Our-Journey-bg*/
+
+
+/*Our Vision, Mission & Values*/
+
+.Our-Vision-bg{
+    background-color: white;
+    width: 100%;
+}
+.Our-Vision-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 54px;
+    margin-bottom: 44px;
+    color: #374151;
+
+}
+.Our-Vision-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 74px;
+    margin-bottom: 44px;
+}
+
+.Our-Vision-card{
+    position: relative;
+    width: 394px;
+    height: 312px;
+    border-radius: 16px;
+    border-width: 1px;
+    background-color: white;
+    border-width: 1px;
+    border-style:  solid;
+    border-color:  #E4E5E6;
+    backdrop-filter: blur(50px);
+}  
+.Our-Vision-icon-container{
+    width: 64px;
+    height: 64px;
+    border-radius: 99px;
+    background-color: #DBEAFE;
+    text-align: center;
+    margin-top: 34px;
+}
+.Our-Vision-icon-image{
+    width: 30px;
+    height: 30px;
+    margin: 17px;
+}
+
+.Our-Vision-icon-heading{
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+    color:#1F2937;
+
+}
+.Our-Visio-items{
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+}
+.list-items{
+    margin-bottom: 10px;
+}
+.check-mark{
+color: green; 
+margin-right: 8px;
+}
+
+
+/*Get in Touch*/
+
+.Get-in-Touch-bg{
+    width: 100%;
+    background-color: #F9FAFB;
+}
+.Get-in-Touch-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 54px;
+
+}
+.contact-and-connect-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Form-section{
+    width: 600px;
+    height: 900px;
+    border-radius: 16px;
+    border-width: 1px;
+    border: 1px solid #0705054d;
+    backdrop-filter: blur(10px);
+    background-color: #FFFFFFB2;
+    backdrop-filter: blur(10px)
+
+ 
+}
+
+.input-container{
+    margin-top: 54px;
+    margin-left: 24px;
+
+}
+.label-names{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #374151;
+
+}
+.input-boxes{
+    width: 534px;
+    height: 50px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid #D1D5DB;
+    background-color: white;
+}
+.message-boxes{
+    width: 534px;
+    height: 150px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid #D1D5DB;
+    background-color: white;
+}
+
+
+select {
+ width: 534px;
+height: 50px;
+border-radius: 8px;
+border-width: 1px;
+border: 1px solid #D1D5DB;
+background-color: white;
+margin-top: 14px;
+margin-bottom: 14px;
+ font-size: 16px;
+
+}
+
+.submit-button{
+    width: 534px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid #D1D5DB;
+    background-color: #008EC8;
+    color: white;
+}
+
+.contact-info-bg{
+    width: 600px;
+    height: 590px;
+    border-radius: 16px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF4D;
+    border: 1px solid #FFFFFF4D;
+    backdrop-filter: blur(10px);
+    background-color: #FFFFFFB2;
+    padding-left: 32px;
+
+}
+.contact-info-heading{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+padding: 23px;
+
+
+}
+
+.contact-info-icon-flex-container{
+    display: flex;
+    gap: 22px;
+}
+.contact-info-icon-bg{
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.contact-info-icon-container{
+    width: 48px;
+    height: 48px;
+    background-color: #DBEAFE;
+    padding: 10px;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+}
+.contact-info-icon{
+    width: 32px;
+    height: 32px;
+    margin: 6px;
+}
+
+.contact-info-icon-heading-container{
+    margin-left: 22px;
+
+}
+.contact-info-icon-heading{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    color: #1F2937;
+
+}
+.contact-info-icon-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #374151;
+    width: 331px;
+    height: 44px;
+
+}
+.Connect-With-Us-bg{
+    width: 600px;
+    height: 200px;
+    border-radius: 16px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF4D;
+    backdrop-filter: blur(10px);
+    background-color: #FFFFFFB2;
+    margin-top: 44px;
+
+}
+.Connect-With-Us-icon-container{
+    display: flex;
+    gap: 18px;
+}
+.Connect-With-Us-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    color:#1F2937;
+}
+
+
+
+/*What-Our-Partners-say*/ 
+
+.What-Our-Partners-bg{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 44px;
+
+}
+
+.What-Our-Partners-heading{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    padding-top: 144px;
+}
+.What-Our-Partners-para{
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+    text-align: center;
+color: #4B5563;
+}
+.What-Our-Partners-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+
+}
+
+.What-Our-Partners-card{
+    width: 420px;
+    height: 320px;
+    border-radius: 16px;
+    background-color: #F9FAFB;
+    padding: 24px;
+}
+.star-icon{
+    width: 28px;
+    height: 28px;
+    color: #008EC8;
+    margin-top: 24px;
+
+}
+
+.What-Our-Partners-card-para{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+width: 393px;
+height: 115px;
+color:#374151;
+
+}
+
+.What-Our-Partners-icon-flex-container{
+    display: flex;
+    gap: 22px;
+}
+.What-Our-Partners-icon-bg{
+    display: flex;
+    margin-top: 34px;
+}
+
+.What-Our-Partners-icon-container{
+ width: 68px;
+height: 68px;
+border-radius: 9999px;
+background-color: #E5E7EB;
+margin-top: 6px;
+
+
+}
+
+.What-Our-Partners-icon-heading-container{
+    margin-left: 22px;
+
+}
+.What-Our-Partners-icon-heading{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    color: #1F2937;
+
+}
+.What-Our-Partners-icon-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #374151;
+    width: 331px;
+    height: 44px;
+
+}
+
+
+
+/*CATEGORY-LISTING-PAGE*/
+
+
+.category-navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 8px 0px #02CB8A;
+    display: flex;
+    justify-content: space-around;
+}
+.category-logo{
+    width: 94px;
+    height: 74px;
+    top: 7px;
+    left: 99px;
+    padding: 12px;
+    }
+.category-navbar-list{
+  list-style-type: none;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   gap: 42px;
+   margin-top: 24px;
+   
+
+}
+
+.category-anchor-element{
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Medium;
+    font-size: 26px;
+    color: #374151;
+    
+}
+
+.category-navbar-button{
+    width: 175px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #008EC8;
+
+    color: white;
+    border: none;
+    cursor: pointer; 
+    margin-top: 24px;
+
+}
+
+/*Explore-Our-Healthcare-Categories-bg*/ 
+
+.Explore-Our-Healthcare-Categories-bg{
+  padding: 24px;
+background: linear-gradient(90deg, #EFF6FF 0%, #DBEAFE 100%);
+
+
+}
+
+.Explore-Our-Healthcare-Categories-heading{
+color: #1F2937;
+
+font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+text-align: center;
+}
+.Explore-Our-Healthcare-Categories-para{
+  font-family: Inter;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #4B5563;
+
+}
+
+
+/*Explore-Section*/
+
+.Explore-Section-bg{
+  background-color: white;
+  width: 100%;
+ 
+
+}
+.Explore-Pharma-cards-section{
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  padding-top: 74px;
+  padding-bottom: 0px;
+}
+.Explore-Pharma-card-container{
+  width: 400px;
+border-radius: 16px;
+border-top-width: 4px;
+box-shadow: 2px 2px 4px -2px #0000001A;
+box-shadow: 2px 4px 6px -1px #0000001A;
+border-top: 4px;
+border-top-style:  solid;
+border-top-color:  #2B6CB0;
+padding: 24px;
+
+}
+
+.Explore-Pharma-icon-bg{
+    width: 64px;
+    height: 64px;
+    border-radius: 99px;
+    background-color: #DBEAFE;
+    text-align: center;
+    
+
+}
+.Explore-Pharma-card-icon-image{
+    width: 30px;
+    height: 30px;
+    margin: 17px;
+}
+.Explore-Pharma-heading{
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  color: #1F2937;
+
+}
+.Explore-Pharma-para{
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+color:#4B5563;
+width: 400px;
+height: 115px;
+
+}
+
+.Explore-Pharma-button{
+  width: 168px;
+height: 50px;
+border-radius: 8px;
+background-color:#2B6CB0;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: white;
+border-width: 0px;
+
+}
+
+
+/*Global-Reach-bg*/
+
+.Global-Reach-bg{
+  width: 100%;
+height: 236px;
+background-color: #F3F4F6;
+display: flex;
+justify-content: center;
+margin-top: 13px;
+gap: 84px;
+
+
+
+}
+
+.Global-Reach-icon-bg{
+  display: flex;
+   margin-top: 42px;
+
+  
+}
+.Global-Reach-icon-container{
+    width: 48px;
+    height: 48px;
+    background-color: #DBEAFE;
+    padding: 10px;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.Global-Reach-icon{
+    width: 32px;
+    height: 32px;
+    margin: 6px;
+    
+}
+.Global-Reach-icon-heading{
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 26px;
+  color: #1F2937;
+
+}
+.Global-Reach-icon-para{
+  width: 327px;
+height: 67PX;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+color: #4B5563;
+
+}
+
+/*comment-section-bg*/
+
+.comment-section-bg{
+  background-color: white;
+  padding-top: 53px;
+  padding-bottom: 23px;
+}
+.comment-section-heading{
+  text-align: center;
+  font-family: Inter;
+font-weight: 400;
+font-style: Italic;
+font-size: 24px;
+vertical-align: middle;
+color: #374151;
+
+
+}
+
+.comment-section-para{
+text-align: center;
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+color: #4B5563;
+
+}
+
+
+/*Pharma-Product-banner-*/
+
+.Pharma-Product-banner-bg-container{
+  background-image: url("Overlay.png");
+  height: 452px;
+  background-size: cover;
+}
+
+.Pharma-Product-banner-card{
+
+  height: 352px; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  
+
+}
+
+.Pharma-Product-banner-heading{
+ font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+color: #FFFFFF;
+
+}
+
+.Pharma-Product-banner-para{
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+.Pharma-Product-banner-button{
+width: 158px;
+height: 52px;
+border-radius: 8px;
+background-color: white;
+border-width: 0px;
+color:rgba(0, 102, 204, 1);
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+}
+.Pharma-Product-banner-button2{
+width: 158px;
+height: 52px;
+border-radius: 8px;
+background-color: transparent;
+
+border-color: white;
+color: white;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+
+}
+
+
+/*Excellence-Pharma-Section*/
+.Excellence-Pharma-bg{
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+  background-color: white;
+  width: 100%;
+  gap:44px;
+  padding-bottom: 34px;
+
+}
+
+
+.Excellence-Pharma-heading{
+  font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 46px;
+color: #008EC8;
+
+}
+.blue-line{
+  background-color: #008EC8;
+  width: 120px;
+  height: 5px;
+  margin-left:05px;
+}
+.Excellence-Pharma-para{
+  font-family: Open Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 26px;
+
+line-height: 24px;
+vertical-align: middle;
+color: #4B5563;
+width: 750px;
+height: 69.5999984741211px;
+
+}
+
+.Excellence-Pharma-image{
+  width: 684px;
+height: 489px;
+border-radius: 16px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+/*Our-Pharmaceutical-Products-Section*/
+
+.Our-Pharmaceutical-Products-bg{
+  background-color:#F9FAFB;
+  width: 100%;
+
+}
+
+.Our-Pharmaceutical-Products-heading{
+  font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+text-align: center;
+color: #008EC8;
+padding-top: 54px;
+
+
+}
+
+.Our-Pharmaceutical-Products-para{
+  font-family: Open Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+color:#4B5563;
+}
+.Our-Pharmaceutical-card-section{
+  display: flex;
+  justify-content: center;
+  gap:54px;
+  padding-bottom: 45px;
+
+
+}
+
+
+.Our-Pharmaceutical-card-container{
+  width: 400px;
+border-radius: 16px;
+border-top-width: 4px;
+box-shadow: 2px 2px 4px -2px #0000001A;
+box-shadow: 2px 4px 6px -1px #0000001A;
+border-top: 4px;
+background-color: white;
+padding: 24px;
+margin-top: 43px;
+
+}
+
+.Our-Pharmaceutical-icon-bg{
+   width: 70px;
+  height: 34px;
+  border-radius: 99px;
+    background-color: #DBEAFE;
+    text-align: center;
+  
+
+}
+.Our-Pharmaceutical-card-para{
+ font-family: Open Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+color:#23BC8D;
+padding-top: 12px;
+
+
+}
+.Our-Pharmaceutical-heading{
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+color: #008EC8;
+
+
+}
+.Our-Pharmaceutical-para{
+  font-family: Open Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #4B5563;
+
+
+}
+
+.Our-Pharmaceutical-button{
+  width: 148px;
+height: 40px;
+border-radius: 8px;
+background-color: #008EC8;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: white;
+border-width: 0px;
+
+}
+.span-element{
+  font-family: Open Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+color: #23BC8D;
+
+padding-left: 124px;
+
+}
+
+
+/*Why-Choose-KH-bg*/
+
+.Why-Choose-KH-bg{
+  background-color: white;
+  width: 100%;
+}
+.Why-Choose-KH-heading{
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+color: #008EC8;
+text-align: center;
+padding-top: 49px;
+
+}
+.Why-Choose-KH-para{
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+text-align: center;
+color: #4B5563;
+
+}
+.WC-KH-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 94px;
+ margin-top: 67px;
+}
+
+.WC-KH-icon{
+  width: 32px;
+height: 42px;
+
+}
+.WC-KH-heading{
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 26px;
+color: #008EC8;
+
+}
+.WC-KH-para{
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+text-align: center;
+vertical-align: middle;
+color: #4B5563;
+}
+
+
+/*Interested-bg*/
+
+.Interested-bg{
+  text-align: center;
+  padding: 54px;
+  background-color: #f5f6fa;
+}
+.Interested-heading{
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+color: rgba(0, 142, 200, 1);
+
+
+}
+.Interested-para{
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color:#4B5563;
+
+}
+.Interested-button{
+  width: 186px;
+height: 49px;
+border-radius: 8px;
+background-color: #008EC8;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color:white;
+border-width: 0px;
+
+}
+.Interested-button2{
+  width: 186px;
+height: 49px;
+border-radius: 8px;
+background-color:  white;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color:  #008EC8;
+border-width: 1px;
+border-color:#4B5563 ;
+
+}
